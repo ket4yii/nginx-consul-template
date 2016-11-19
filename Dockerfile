@@ -3,7 +3,7 @@ MAINTAINER Alexey Boyko <ket4yiit@gmail.com>
 
 ENV CONSUL_TEMPLATE_VER 0.16.0
 ENV CONSUL_SERVER consul:8500
-ENV NGINX_CONF_PATH /etc/nginx/conf.d/servers.conf
+ENV NGINX_CONF_PATH /etc/nginx/conf.d/generated.conf
 ENV NGINX_TMPL_PATH /tmp/nginx.ctmpl
 
 ADD https://releases.hashicorp.com/consul-template/${CONSUL_TEMPLATE_VER}/consul-template_${CONSUL_TEMPLATE_VER}_linux_amd64.zip /tmp/consul-template.zip
