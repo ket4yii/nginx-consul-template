@@ -6,7 +6,7 @@ This is simple docker image provided with nginx and consul-template in one conta
 
 ##Configuration
 
-You can configure some paths and net addresses by docker environments (*-e* option) variables
+You can configure some paths and net addresses by docker environments (**-e or --env** option) variables
 
 Envs:
 
