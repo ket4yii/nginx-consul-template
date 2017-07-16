@@ -2,7 +2,7 @@ FROM nginx:alpine
 MAINTAINER Alexey Boyko <ket4yiit@gmail.com>
 
 ENV CONSUL_TEMPLATE_VER 0.16.0
-ENV CONSUL_SERVER consul:8500
+ENV CONSUL_SERVER localhost:8500
 ENV NGINX_CONF_PATH /etc/nginx/conf.d/generated.conf
 ENV NGINX_TMPL_PATH /tmp/nginx.ctmpl
 
